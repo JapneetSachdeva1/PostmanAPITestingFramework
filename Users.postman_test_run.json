@@ -1,0 +1,84 @@
+{
+	"id": "6b647ca4-d224-493c-a48e-aba8095f96bb",
+	"name": "Users",
+	"timestamp": "2022-11-15T08:45:34.170Z",
+	"collection_id": "20630078-8d847ba4-63e8-42ff-aeed-ad9096f69396",
+	"folder_id": 0,
+	"environment_id": "20630078-c5c74082-0432-4eed-a32d-28fd15d5a010",
+	"totalPass": 15,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "902f8807-7d5d-4a13-91c8-72d3056c19ec",
+			"name": "CreateUser",
+			"time": 319,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Validate the Json Schema": true,
+				"Validate the username are correct": true,
+				"Validate the job description is correct": true
+			},
+			"testPassFailCounts": {
+				"Validate the Json Schema": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate the username are correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate the job description is correct": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				424,
+				314,
+				299,
+				341,
+				319
+			],
+			"allTests": [
+				{
+					"Validate the Json Schema": true,
+					"Validate the username are correct": true,
+					"Validate the job description is correct": true
+				},
+				{
+					"Validate the Json Schema": true,
+					"Validate the username are correct": true,
+					"Validate the job description is correct": true
+				},
+				{
+					"Validate the Json Schema": true,
+					"Validate the username are correct": true,
+					"Validate the job description is correct": true
+				},
+				{
+					"Validate the Json Schema": true,
+					"Validate the username are correct": true,
+					"Validate the job description is correct": true
+				},
+				{
+					"Validate the Json Schema": true,
+					"Validate the username are correct": true,
+					"Validate the job description is correct": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 1697,
+	"collection": {
+		"requests": [
+			{
+				"id": "902f8807-7d5d-4a13-91c8-72d3056c19ec",
+				"method": "POST"
+			}
+		]
+	}
+}

@@ -1,0 +1,17 @@
+commands for setting up newman (postman)
+
+To install newman = 
+npm install -g newman
+
+How to execute the Collection from Postman using Newman?
+
+1) Export your collection as json and store it in your local system
+2) You can get a public link (By clicking on share button) and then using that link - you can directly
+execute your script
+
+Let's execute with 1 - 
+newman run <name of json file> -d <name of file for data> -e <file name for env variables> 
+-g <add name of golbal variables file>
+Note - No spaces should be there in your fileNames
+Example = 
+newman run Users.postman_collection.json -d test_data_Create_User.csv -e QA.postman_environment.json
